@@ -37,22 +37,19 @@ a {
     color: var(--text-color);
     text-decoration: none;
 }
-/* Target anchor elements that contain a hyperlink */
+
 a[href] {
     text-decoration: none;
 }
   
-  /* Target the visited state for the link and italicize the text */
 a[href]:visited {
     font-style: italic;
 }
   
-  /* Target the hover state for the link and decorate with an underline */
 a[href]:hover {
     text-decoration: underline;
 }
   
-  /* Target the active state for the link and set the background color using the variable */
 a[href]:active {
     background-color: var(--color-light-grey);
 }
