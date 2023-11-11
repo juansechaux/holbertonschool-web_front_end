@@ -38,25 +38,22 @@ a {
     text-decoration: none;
 }
 
-/* Target anchor elements with hyperlinks */
-a[href] {
-    background-color: var(--color-light-grey);
-  }
-  
-  /* Target visited state for the link */
-  a[href]:visited {
-    font-style: italic;
-  }
-  
-  /* Target hover state for the link */
-  a[href]:hover {
+a:link {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:visited {
+    font-style: italic; /* Establece el estilo en cursiva para los enlaces visitados */
+}
+
+a:hover{
     text-decoration: underline;
-  }
-  
-  /* Target active state for the link */
-  a[href]:active {
+}
+
+a:active {
     background-color: var(--color-light-grey);
-  }
+}
 .visually-hidden {
     display: none
 }
